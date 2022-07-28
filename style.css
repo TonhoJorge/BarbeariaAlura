@@ -94,10 +94,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	
-}
-
 form {
 	margin: 40px 0;
 }
@@ -260,7 +256,7 @@ td, th {
 /* Resposividade celular*/
 
 @media screen and (max-width: 480px) { 
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .formulario {
         width: auto;
     }
 
@@ -274,5 +270,40 @@ td, th {
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
+	}
+
+	.produtos li {		
+		display: block;
+		margin: 0 12px;
+		margin-top: 10px;
+		width: auto;
+    }
+
+	.formulario {
+		margin: 0 12px;
+		margin-top: 10px;
+	}
+
+	.botao-enviar {
+		width:40%;
+		padding: 15px 0;
+		background: orange;
+		color: white;
+		font-weight: bold;
+		font-size: 15px;
+		border: none;
+		border-radius: 5px;
+		transition: 1s all;
+		cursor: pointer;
+		margin-left: 85px;
+	}
+	
+	.botao-enviar:hover {
+		background: darkorange;
+		transform: scale(1.2);
+	}
+
+	.tabela{
+		width: 100%
 	}
 }
